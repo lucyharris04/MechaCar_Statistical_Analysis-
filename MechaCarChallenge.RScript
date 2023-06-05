@@ -1,0 +1,16 @@
+library(dplyr)
+
+mpg_df <- read.csv(file = "MechCar_mpg.csv)
+
+summary(mgp_df)
+
+
+susp_coil <- read.csv(file = "Suspension_Coil.csv)
+
+
+total_summary <- susp_coil summarize(Mean = mean(psi), Median = median(psi), Variance = var(psi))
+
+lot_summary <- susp_coil group_by(manufacturinhg_lot)
+
+t.test(mu=mean(susp_coil, psi))
+
